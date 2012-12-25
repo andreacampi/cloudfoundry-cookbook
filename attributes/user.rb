@@ -23,12 +23,3 @@ default['cloudfoundry']['user'] = 'cloudfoundry'
 
 # Group of the user that will own and run CloudFoundry.
 default['cloudfoundry']['group'] = 'cloudfoundry'
-
-# Uid of the user that will own and run CloudFoundry.
-default['cloudfoundry']['uid'] = 1002
-
-# Gid of the user that will own and run CloudFoundry.
-default['cloudfoundry']['gid'] = 1002
-
-# Home of the user that will own and run CloudFoundry.
-default['cloudfoundry']['home'] = "/home/#{node['cloudfoundry']['user']}"
